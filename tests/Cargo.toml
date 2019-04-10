@@ -1,0 +1,11 @@
+[package]
+name = "tests"
+version = "0.1.0"
+authors = ["Jeremie Bigras-Dunberry <bigjerbd@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde_derive = "1.0.90"
+serde = "1.0.90"
+bencher = "0.1.5"
+rts_logger = {path = "../"}
